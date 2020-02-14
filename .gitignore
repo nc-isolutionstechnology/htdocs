@@ -1,0 +1,29 @@
+# CMake
+cmake-build-*/
+/dashboard/*
+/img/*
+/testing/*
+/webalizer/*
+/xampp/*
+
+applications.html
+bitnami.css
+favicon.ico
+index.php
+
+# ignore IDE/hidden/OS cache files
+.*
+*~
+*.tmproj
+*.tmproject
+tmtags
+Thumbs.db
+Desktop.ini
+
+# ignore Composer downloads
+#/vendor/*
+
+# keep some hiddens
+!.htaccess
+!/.gitignore
+!/.travis.yml
